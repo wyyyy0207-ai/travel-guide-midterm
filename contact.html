@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student travel guide to Beijing, Shanghai, Chengdu, and Xi'an.">
+  <title>Contact | Travel Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a class="site-name" href="index.html">Travel Guide</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="tips.html">Travel Tips</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>About Us &amp; Contact</h1>
+    <p>Learn about our project and try the sample contact form.</p>
+
+    <section>
+      <h2>About Our Project</h2>
+      <p>We are a student team creating a travel website for our midterm project. We chose four cities with different sights and culture: Beijing, Shanghai, Chengdu, and Xi'an.</p>
+      <p>Our goal is to give visitors a short introduction to each city through photos and simple descriptions.</p>
+      <h3>What You Can Find Here</h3>
+      <ul>
+        <li>City introductions and landmarks</li>
+        <li>Travel photos and local food</li>
+        <li>Basic tips for planning a trip</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <p id="form-note">This is a classroom demo form. It does not send or save messages.</p>
+      <form aria-describedby="form-note">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name">
+
+        <label for="email">Your Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email">
+
+        <label for="city">City You Are Interested In</label>
+        <select id="city" name="city">
+          <option value="">Choose a city</option>
+          <option value="beijing">Beijing</option>
+          <option value="shanghai">Shanghai</option>
+          <option value="chengdu">Chengdu</option>
+          <option value="xian">Xi'an</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+
+        <button type="button" disabled>Send Message (Demo)</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Travel Guide | Midterm Team Project</p>
+    <p>Beijing · Shanghai · Chengdu · Xi'an</p>
+  </footer>
+</body>
+</html>
